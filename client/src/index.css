@@ -61,6 +61,14 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+.update{
+  top: 100px;
+}
+
+.delete {
+  top: 180px;
+  cursor: pointer;
+}
 .save-button:hover {
   background-color: green;
   color: white;
@@ -74,4 +82,14 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.input {
+  width: 50%;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
 }
